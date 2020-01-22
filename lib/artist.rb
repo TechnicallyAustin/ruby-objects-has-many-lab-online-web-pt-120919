@@ -15,6 +15,7 @@ end
 
 def add_song(song)
   song = Song.new(song)
+  @song = song 
   @songs << song 
   @@counter += 1 
   song.artist = self 
