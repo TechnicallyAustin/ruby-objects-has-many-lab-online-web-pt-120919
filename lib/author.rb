@@ -10,7 +10,7 @@ class Author
   end
   
   def add_post(pos)
-    @posts << pos 
+    pos = Post.new 
     Post.all << pos
   end
   
