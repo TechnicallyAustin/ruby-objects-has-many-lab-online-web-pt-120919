@@ -31,7 +31,7 @@ end
 
 def self.song_count
   @@all
-  binding.pry 
+  #binding.pry 
 end
   
 
