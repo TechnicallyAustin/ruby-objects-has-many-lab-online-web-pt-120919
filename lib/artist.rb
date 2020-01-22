@@ -15,6 +15,7 @@ end
 
 def add_song(song)
  @songs << Song.new(song)
+ song.artist = self 
  
 
 end
