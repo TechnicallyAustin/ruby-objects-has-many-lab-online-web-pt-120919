@@ -6,6 +6,7 @@ class Artist
   def initialize(name)
     @name = name
     @songs = []
+    @@all << self 
   end
   
   def songs
@@ -29,7 +30,7 @@ def add_song_by_name(name)
 end
 
 def self.song_count
-  Songs.all 
+  @@all
   binding.pry 
 end
   
