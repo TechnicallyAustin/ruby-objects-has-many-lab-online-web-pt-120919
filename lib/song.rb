@@ -17,7 +17,7 @@ class Song
     else
       nil
     end
-    binding.pry
+   # binding.pry
   end
   
   def self.all 
