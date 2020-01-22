@@ -15,7 +15,7 @@ class Song
     if @artist == nil 
      nil
     else
-      nil
+      artist.name 
     end
    # binding.pry
   end
