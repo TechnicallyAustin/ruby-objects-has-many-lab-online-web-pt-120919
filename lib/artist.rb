@@ -30,7 +30,7 @@ def add_song_by_name(name)
 end
 
 def self.song_count
-  Song.all
+  Song.all.count
   #binding.pry 
 end
   
