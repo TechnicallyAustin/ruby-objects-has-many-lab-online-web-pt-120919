@@ -14,7 +14,8 @@ class Artist
 end
 
 def add_song(song)
- Song.all << song
+ Song.all << song.new 
+ 
 
 end
 
